@@ -1,0 +1,27 @@
+body{
+  border:2px solid black;
+  width:500px;
+  background:#673AB7;
+ 
+}
+.flex-box{
+  display:flex;
+  margin:10px;
+  font-size:20px;
+  padding:5px;
+  background:#4CAF50;
+}
+.flex-box div{
+  margin:5px;
+  padding:10px;
+  text-align:justify;
+  width:500px;
+}
+#box1{
+  flex-wrap:nowrap;
+}
+@media(max-width:480px){
+  body{
+    background:#FFEB3B;
+  }
+}
