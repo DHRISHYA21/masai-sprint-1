@@ -1,0 +1,16 @@
+
+.flex-box{
+  display:flex;
+  margin:10px;
+  border:3px solid black;
+  font-size:18px;
+  background:#E91E63;
+}
+.flex-box div{
+  margin:5px;
+  padding:10px;
+  border:1px solid black;
+ }
+#box1{
+  flex-wrap:nowrap;
+}
