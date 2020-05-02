@@ -1,0 +1,25 @@
+.flex-box{
+  display:flex;
+  margin:10px;
+  border:2px solid black;
+  
+}
+.flex-box div{
+  margin:5px;
+  padding:10px;
+  border:1px solid black;
+  width:400px;
+  float:left;
+  
+ }
+.flex-box2 div{
+  margin:5px;
+  padding:10px;
+  
+  
+
+#box2{
+  flex-wrap:nowrap;
+  font-size:18px;
+}
+  
